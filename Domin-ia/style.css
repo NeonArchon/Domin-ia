@@ -1,3 +1,83 @@
+
+body{
+
+  color: #66b2ff;
+
+}
+
 .my-blue-navbar {
     background-color: #007bff;
   }
+
+.navbar-brand,
+.navbar-nav .nav-link,
+.navbar-nav .dropdown-item {
+    color: white !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%28255, 255, 255, 1%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+
+
+.accordion-button {
+  background-color: #003366; /* Azul oscuro */
+  color: #66b2ff; /* Azul más claro */
+  width: 100%;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #66b2ff; /* Azul más claro */
+  background-color: #003366; /* Azul oscuro */
+}
+
+.accordion-button:hover {
+  background-color: #002244; /* Azul oscuro más intenso */
+  color: #66b2ff; /* Azul más claro */
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(0, 51, 102, 0.5); /* Sombra azul oscuro */
+}
+
+.accordion-button {
+  background-color: #003366; /* Azul oscuro */
+  color: #a7d2f7; /* Azul más claro */
+  width: 100%;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #a7d2f7; /* Azul más claro */
+  background-color: #003366; /* Azul oscuro */
+}
+
+.accordion-button:hover {
+  background-color: #002244; /* Azul oscuro más intenso */
+  color: #a7d2f7; /* Azul más claro */
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(0, 51, 102, 0.5); /* Sombra azul oscuro */
+}
+
+.accordion-body {
+  background-color: #a7d2f7; /* Color de fondo para el cuerpo del acordeón */
+  color: #003366; /* Color del texto en el cuerpo del acordeón */
+  padding: 1rem; /* Espacio interno (padding) */
+}
+
+.accordion-item{
+  background-color: #a7d2f7;
+
+}
+
+
+.accordionExample{
+  background-color: #a7d2f7;
+
+}
+
+.accordion-header{
+  background-color: #a7d2f7;
+
+}
