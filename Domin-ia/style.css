@@ -81,3 +81,13 @@ body{
   background-color: #a7d2f7;
 
 }
+
+.custom-text {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.card-title, .card-text {
+  color: white;
+}
+
